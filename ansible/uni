@@ -1,0 +1,9 @@
+---
+- hosts: local
+  vars:
+    language:
+      - python
+      - kotlin
+
+  roles:
+  - Selenium/default

@@ -1,0 +1,7 @@
+---
+langJava: "java"
+langPython: "python"
+langCSharp: "csharp"
+langRuby: "ruby"
+langJavaScript: "javascript"
+langKotlin: "kotlin"

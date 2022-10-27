@@ -1,0 +1,31 @@
+---
+
+- name: Java
+  ansible.builtin.include_role:
+    name: Selenium/Java
+  when: langJava in language
+
+- name: Python
+  ansible.builtin.include_role:
+    name: Selenium/Python
+  when: langPython in language
+
+- name: CSharp
+  ansible.builtin.include_role:
+    name: Selenium/CSharp
+  when: langCSharp in language
+
+- name: Ruby
+  ansible.builtin.include_role:
+    name: Selenium/Ruby
+  when: langRuby in language
+
+- name: JavaScript
+  ansible.builtin.include_role:
+    name: Selenium/JavaScript
+  when: langJavaScript in language
+
+- name: Kotlin
+  ansible.builtin.include_role:
+    name: Selenium/Kotlin
+  when: langKotlin in language
