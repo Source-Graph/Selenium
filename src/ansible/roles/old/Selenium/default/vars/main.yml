@@ -1,4 +1,9 @@
 ---
+language:
+- python
+- kotlin
+
+
 langJava: "java"
 langPython: "python"
 langCSharp: "csharp"

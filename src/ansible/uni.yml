@@ -1,0 +1,4 @@
+---
+- hosts: localhost
+  roles:
+  - UniInc.Selenium-JavaScript
